@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5) ;
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #15f700 !important;
+   
+}
+#navbarSupportedContent a{
+    color: #fff;
+    margin-right: 50px;
+    font-weight: 700;
+         
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700;    
+}
+#navbarSupportedContent button{
+    background: #00bdf7;
+    width: 5rem;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.iy{
+    color:cyan;
+}
+body{
+    background: linear-gradient(#0c7b93 0%, #00a8cc 0%);
+}
+button.clear {
+    background: #FF5722;
+    color: #fff;
+}
+table {
+    background: black;
+    padding: 7px 5px;
+    border: 6px solid #00000000;
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 27px #0d5569;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+button.equal {
+    width: 88%;
+    background: #210b04;
+}
+button.equal:hover{
+	background: #000803;
+}
+input[type="text"] {
+    width: 450px;
+    height: 81px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 29px;
+    background: #000000;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: 10px;
+    color: #dedede;
+    border-bottom: 2px solid #cc4014;
+}
+button {
+    padding: 10px 20px;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: cursive;
+    background: #000803;
+    border: none;
+    color: #d23200;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+	background: #210b04;
+}
